@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WindowsMain.cpp" />
+    <ClCompile Include="PreCompiled.cpp">
+      <Filter>PreCompiled</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PreCompiled">
+      <UniqueIdentifier>{86e902b6-f191-41fa-a32d-465e13bba28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{dd7c2076-2b95-42c1-9920-b38289052556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Resource">
+      <UniqueIdentifier>{30d4421b-f5aa-4ee3-8e84-934da4b20586}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PreCompiled.h">
+      <Filter>PreCompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApp.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Windows\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Sword.ico">
+      <Filter>Windows\Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SoftRenderer.rc">
+      <Filter>Windows\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

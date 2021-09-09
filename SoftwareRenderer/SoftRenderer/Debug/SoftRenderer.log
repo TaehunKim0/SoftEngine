@@ -1,0 +1,8 @@
+﻿  PreCompiled.cpp
+  WindowsMain.cpp
+C:\Users\jack0\Github\SoftRenderer\SoftwareRenderer\SoftRenderer\WindowsApp.h(68,93): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [28]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\jack0\Github\SoftRenderer\SoftwareRenderer\SoftRenderer\WindowsApp.h(68,26): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
+C:\Users\jack0\Github\SoftRenderer\SoftwareRenderer\SoftRenderer\WindowsApp.h(87,89): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [24]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\jack0\Github\SoftRenderer\SoftwareRenderer\SoftRenderer\WindowsApp.h(87,26): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 'MessageBoxW' 선언을 참조하십시오.
